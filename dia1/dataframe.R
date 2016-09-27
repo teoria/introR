@@ -32,5 +32,7 @@ min(coluna1)
 max(coluna1)
 sd(coluna1)
 
+summary(iris$Sepal.Length)
+
 #soma1(coluna1)
 
