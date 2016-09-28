@@ -21,6 +21,8 @@ iris[ 5 , ]
 # resumo
 summary(iris)
 
+summary(iris$Species)
+
 head(iris )
 tail(iris)
 
@@ -32,7 +34,23 @@ min(coluna1)
 max(coluna1)
 sd(coluna1)
 
-summary(iris$Sepal.Length)
+summary(coluna1)
 
 #soma1(coluna1)
+
+
+dadosValido <- c( 1 , 3 , 5)
+iris[dadosValido ,  ]
+
+
+dadosValidosBoleano <- c( FALSE , FALSE ,TRUE )
+iris[ dadosValidosBoleano , ]
+
+
+dadosBoo <- iris$Sepal.Width > 3 & iris$Petal.Width < 0.3
+baseNova <- iris[ dadosBoo , ]
+
+View(baseNova)
+
+
 

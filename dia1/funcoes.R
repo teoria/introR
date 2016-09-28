@@ -4,15 +4,22 @@ paste( nome , " sobrenome" ,sep = "-")
 
 
 soma1 <- function( valor ){
-        valor + 1
+         valor + 1
 }
+
+soma1(10)
+
+
+lista <- c( 1, 3, 5, 60 )
+soma1(lista)
+
+
+
 
 areaRetangulo <- function(base , altura){
         base * altura
 }
 
-
-soma1(10)
 
 areaRetangulo(10 , 20)
 
@@ -33,4 +40,6 @@ sd( lista)
 lista3 <- 1:70
 
 class(lista)
+  
  
+
